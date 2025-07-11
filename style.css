@@ -15,6 +15,9 @@
 
 /* shared style */
 
+.txt-center{
+    text-align: center;
+}
 .btn-primary {
     font-size: 16px;
     background-color: #4E47FF;
@@ -40,4 +43,21 @@ nav {
 .nav-title {
     color: #4E47FF;
     font-size: 34px;
+    font-weight: 900;
+}
+header .banner button{
+    margin-bottom: 200px;
+}
+
+/* Banner style */
+.banner-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+    margin:158px 270px 37px 270px;
+}
+/* header style */
+header{
+    background-image: url(Assets/Hero-bg.png);
+   
 }
