@@ -15,9 +15,10 @@
 
 /* shared style */
 
-.txt-center{
+.txt-center {
     text-align: center;
 }
+
 .btn-primary {
     font-size: 16px;
     background-color: #4E47FF;
@@ -45,19 +46,80 @@ nav {
     font-size: 34px;
     font-weight: 900;
 }
-header .banner button{
-    margin-bottom: 200px;
+
+header .banner button {
+    margin-bottom: 220px;
 }
 
 /* Banner style */
-.banner-title{
+.banner-title {
     color: #252432;
     font-size: 65px;
     font-weight: bold;
-    margin:158px 270px 37px 270px;
+    margin: 158px 270px 37px 270px;
 }
+
 /* header style */
-header{
+header {
     background-image: url(Assets/Hero-bg.png);
-   
+
+}
+
+/* action style */
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 140px;
+    ;
+    gap: 100px;
+}
+
+.action img {
+    border-radius: 48px;
+}
+
+.action-title {
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-subtitle {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+/* productive users section */
+.productive {
+    background-color: #e8e4fd;
+    margin: 50px 150px;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+
+.productive-title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    
+    gap: 150px;
+}
+
+.data-title {
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.data-subtitle {
+    font-size: 20px;
+    color: #8a8686;
+    margin: 0px;
+    font-weight:400;
 }
