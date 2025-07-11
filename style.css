@@ -1,0 +1,43 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+
+/* shared style */
+
+.btn-primary {
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 150px;
+    gap: 900px;
+}
+
+.nav-title {
+    color: #4E47FF;
+    font-size: 34px;
+}
