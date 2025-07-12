@@ -238,9 +238,7 @@ header {
     font-size: 50px;
 }
 
-.input {
-    /* padding: 10px; */
-}
+
 
 .form-section input[type="text"],
 .form-section input[type="email"],
@@ -254,15 +252,30 @@ header {
     border: none;
 }
 
+.form label{
+    margin-left: 15px;
+}
 .input-btn {
     width: 90%;
 }
 
 /* footer style */
+.footer{
+    margin: 100px 450px;
+}
 .footer-title{
     color: #4E47FF;
     font-size: 100px;
+    margin-bottom: 8px;
 }
 .footer-subtitle{
     color: rgb(137, 135, 161);
+    /* font-size: 2em; */
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style: none; color: rgb(137, 135, 161);
 }
