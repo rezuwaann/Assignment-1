@@ -253,7 +253,7 @@ header {
 }
 
 .form label{
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .input-btn {
     width: 90%;
@@ -277,5 +277,9 @@ footer ul{
     justify-content: space-around;
 }
 footer ul li{
-    list-style: none; color: rgb(137, 135, 161);
+    list-style: none;
+    
+}
+footer ul li a{
+    text-decoration: none;color: rgb(137, 135, 161);
 }
